@@ -16,6 +16,7 @@ import { ReportesComponent } from './components/perfil-carpeta/reportes/reportes
 import { CurriculumVitaeComponent } from './components/perfil-carpeta/curriculum-vitae/curriculum-vitae.component';
 import { NavbarGeneralComponent } from './components/compartido-general-carpeta/navbar-general/navbar-general.component';
 import { FooterGeneralComponent } from './components/compartido-general-carpeta/footer-general/footer-general.component';
+import { HomeComponent } from './components/home/home.component';
  
 
 @NgModule({
@@ -34,6 +35,7 @@ import { FooterGeneralComponent } from './components/compartido-general-carpeta/
     CurriculumVitaeComponent,
     NavbarGeneralComponent,
     FooterGeneralComponent,
+    HomeComponent,
  
   ],
   imports: [
