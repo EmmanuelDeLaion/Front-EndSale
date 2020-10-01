@@ -8,6 +8,12 @@ import { RecuperarContrasenaComponent } from './inicio-sesion-carpeta/recuperar-
 import { RegistroComponent } from './inicio-sesion-carpeta/registro/registro.component';
 import { PrincipalComponent } from './pagina-principal-carpeta/principal/principal.component';
 import { DetallesProductoComponent } from './pagina-principal-carpeta/detalles-producto/detalles-producto.component';
+import { PerfilPrincipalComponent } from './perfil-carpeta/perfil-principal/perfil-principal.component';
+import { PublicacionesComponent } from './perfil-carpeta/publicaciones/publicaciones.component';
+import { CertificadosComponent } from './perfil-carpeta/certificados/certificados.component';
+import { RedContactosComponent } from './perfil-carpeta/red-contactos/red-contactos.component';
+import { ReportesComponent } from './perfil-carpeta/reportes/reportes.component';
+import { CurriculumVitaeComponent } from './perfil-carpeta/curriculum-vitae/curriculum-vitae.component';
  
 
 @NgModule({
@@ -18,6 +24,12 @@ import { DetallesProductoComponent } from './pagina-principal-carpeta/detalles-p
     RegistroComponent,
     PrincipalComponent,
     DetallesProductoComponent,
+    PerfilPrincipalComponent,
+    PublicacionesComponent,
+    CertificadosComponent,
+    RedContactosComponent,
+    ReportesComponent,
+    CurriculumVitaeComponent,
  
   ],
   imports: [
