@@ -3,19 +3,19 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { IniciarSesionComponent } from './inicio-sesion-carpeta/iniciar-sesion/iniciar-sesion.component';
-import { RecuperarContrasenaComponent } from './inicio-sesion-carpeta/recuperar-contrasena/recuperar-contrasena.component';
-import { RegistroComponent } from './inicio-sesion-carpeta/registro/registro.component';
-import { PrincipalComponent } from './pagina-principal-carpeta/principal/principal.component';
-import { DetallesProductoComponent } from './pagina-principal-carpeta/detalles-producto/detalles-producto.component';
-import { PerfilPrincipalComponent } from './perfil-carpeta/perfil-principal/perfil-principal.component';
-import { PublicacionesComponent } from './perfil-carpeta/publicaciones/publicaciones.component';
-import { CertificadosComponent } from './perfil-carpeta/certificados/certificados.component';
-import { RedContactosComponent } from './perfil-carpeta/red-contactos/red-contactos.component';
-import { ReportesComponent } from './perfil-carpeta/reportes/reportes.component';
-import { CurriculumVitaeComponent } from './perfil-carpeta/curriculum-vitae/curriculum-vitae.component';
-import { NavbarGeneralComponent } from './compartido-general-carpeta/navbar-general/navbar-general.component';
-import { FooterGeneralComponent } from './compartido-general-carpeta/footer-general/footer-general.component';
+import { IniciarSesionComponent } from './components/inicio-sesion-carpeta/iniciar-sesion/iniciar-sesion.component';
+import { RecuperarContrasenaComponent } from './components/inicio-sesion-carpeta/recuperar-contrasena/recuperar-contrasena.component';
+import { RegistroComponent } from './components/inicio-sesion-carpeta/registro/registro.component';
+import { PrincipalComponent } from './components/pagina-principal-carpeta/principal/principal.component';
+import { DetallesProductoComponent } from './components/pagina-principal-carpeta/detalles-producto/detalles-producto.component';
+import { PerfilPrincipalComponent } from './components/perfil-carpeta/perfil-principal/perfil-principal.component';
+import { PublicacionesComponent } from './components/perfil-carpeta/publicaciones/publicaciones.component';
+import { CertificadosComponent } from './components/perfil-carpeta/certificados/certificados.component';
+import { RedContactosComponent } from './components/perfil-carpeta/red-contactos/red-contactos.component';
+import { ReportesComponent } from './components/perfil-carpeta/reportes/reportes.component';
+import { CurriculumVitaeComponent } from './components/perfil-carpeta/curriculum-vitae/curriculum-vitae.component';
+import { NavbarGeneralComponent } from './components/compartido-general-carpeta/navbar-general/navbar-general.component';
+import { FooterGeneralComponent } from './components/compartido-general-carpeta/footer-general/footer-general.component';
  
 
 @NgModule({
