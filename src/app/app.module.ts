@@ -14,6 +14,8 @@ import { CertificadosComponent } from './perfil-carpeta/certificados/certificado
 import { RedContactosComponent } from './perfil-carpeta/red-contactos/red-contactos.component';
 import { ReportesComponent } from './perfil-carpeta/reportes/reportes.component';
 import { CurriculumVitaeComponent } from './perfil-carpeta/curriculum-vitae/curriculum-vitae.component';
+import { NavbarGeneralComponent } from './compartido-general-carpeta/navbar-general/navbar-general.component';
+import { FooterGeneralComponent } from './compartido-general-carpeta/footer-general/footer-general.component';
  
 
 @NgModule({
@@ -30,6 +32,8 @@ import { CurriculumVitaeComponent } from './perfil-carpeta/curriculum-vitae/curr
     RedContactosComponent,
     ReportesComponent,
     CurriculumVitaeComponent,
+    NavbarGeneralComponent,
+    FooterGeneralComponent,
  
   ],
   imports: [
