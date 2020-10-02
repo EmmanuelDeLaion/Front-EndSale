@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IniciarSesionComponent } from './components/inicio-sesion-carpeta/iniciar-sesion/iniciar-sesion.component';
@@ -18,6 +19,8 @@ import { NavbarGeneralComponent } from './components/compartido-general-carpeta/
 import { FooterGeneralComponent } from './components/compartido-general-carpeta/footer-general/footer-general.component';
 import { HomeComponent } from './components/home/home.component';
  
+import { routes } from './app.routes';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -40,7 +43,8 @@ import { HomeComponent } from './components/home/home.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot( routes, { useHash: true } ),
   ],
   providers: [],
   bootstrap: [AppComponent]
